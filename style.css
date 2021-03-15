@@ -21,6 +21,7 @@
   }
   
   header {
+    display:flex;
     padding-top: 3%;
     min-height: 70px;
   }
@@ -46,7 +47,7 @@
   }
   
   .navbar li {
-    display: block;
+    display: inline-block;
     padding: 10px 25px;
   }
   
@@ -75,12 +76,12 @@
   }
   
   #introduction h1 {
-    font-size: 60px;
+    font-size: 80px;
   }
   
   #introduction p {
     margin: 10% auto;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: lighter;
   }
   
@@ -90,6 +91,7 @@
     padding: 3% 8%;
     margin: 0 auto;
     color: #ffffff;
+    font-size: 50px;
     background-color: #4c7ef3;
     border-radius: 4px;
   }
@@ -108,7 +110,7 @@
   .instrument {
     width: 90%;
     overflow: auto;
-    background-color: white;
+    background-color: rgba(197, 189, 189, 0.925);
     opacity: 0.9;
     margin: 5% auto;
     padding: 2% 5%;
@@ -119,9 +121,10 @@
   .image {
     display: inline-block;
     vertical-align: middle;
-    width: 32%;
+    width: 30%;
     min-width: 100px;
     margin: 0 auto;
+    opacity:1;
   }
   
   .details {
@@ -129,7 +132,12 @@
     vertical-align: middle;
     width: 60%;
     margin: -1% auto;
-    padding: 2%;
+    padding: 4%;
+  }
+
+  .name {
+      font-size: 3em;
+      margin-bottom: 0.5em;
   }
   
   .name, .description, .price, del {
@@ -164,7 +172,7 @@
   }
 
   .deal {
-    font-size: 16px;
+    font-size: 28px;
     color: rgb(190, 25, 25);
 }
   
@@ -177,27 +185,28 @@
   }
   
   #top {
-    margin: 15% auto;
+    margin: 5% auto;
   }
   
   #top h2 {
-    margin: 3%
+    margin: 3%;
     font-size: 30px;
     font-weight: normal;
   }
   
   #top p {
-    margin: 3%
+    margin: 2%;
     font-size: 18px;
     font-weight: lighter;
   }
   
   .contact {
-    width: 100%;
-    margin: 10% auto;
+    margin: 1% 5%;
+    display: inline-block;
   }
   
   .contact p, .contact ul {
+    width: auto;
     margin: 1%;
     font-size: 16px;
     font-weight: lighter;
